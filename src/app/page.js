@@ -1,5 +1,6 @@
 // pages/index.js
 import Head from "next/head";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -50,7 +51,12 @@ export default function Home() {
             className="project-link"
           >
             <div className="project-item">
-              <img src="/stack.png" alt="Stack Overflow Clone Project" />
+              <Image
+                src="/stack.png"
+                alt="Stack Overflow Clone Project"
+                width="500"
+                height="500"
+              />
               <h3>Stack Overflow Clone</h3>
               <p>
                 My first project was a Stack Overflow clone, where I implemented
@@ -72,7 +78,12 @@ export default function Home() {
             className="project-link"
           >
             <div className="project-item">
-              <img src="/movie.png" alt="MovieFlix Project" />
+              <Image
+                src="/movie.png"
+                alt="MovieFlix Project"
+                width="500"
+                height="500"
+              />
               <h3>MovieFlix</h3>
               <p>
                 MovieFlix is my second project, a movie database application
@@ -94,7 +105,12 @@ export default function Home() {
             className="project-link"
           >
             <div className="project-item">
-              <img src="/ecom.png" alt="E-Commerce Project" />
+              <Image
+                src="/ecom.png"
+                alt="E-Commerce Project"
+                width="500"
+                height="500"
+              />
               <h3>E-Commerce Platform</h3>
               <p>
                 My third project is an E-Commerce platform, offering a seamless
